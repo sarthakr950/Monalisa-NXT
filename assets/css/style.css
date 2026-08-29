@@ -265,7 +265,7 @@ h3{font-size:var(--font-h3)}
 .site-header.dark-mode .brand small{color:var(--grey-400)}
 
 .main-nav{display:flex;align-items:center;gap:2px;margin-inline:auto}
-.main-nav > li{position:relative}
+.main-nav li.has-drop{position:relative}
 .nav-link{
   display:inline-flex;align-items:center;gap:7px;
   padding:10px 15px;border-radius:var(--radius-pill);
@@ -293,8 +293,13 @@ h3{font-size:var(--font-h3)}
 }
 .site-header.dark-mode .nav-badge{background:var(--gold-grad);color:var(--ink)}
 
+/* Invisible hover-bridge over the gap — keeps dropdown open while moving the mouse */
+.main-nav li.has-drop::after{
+  content:"";position:absolute;left:0;right:0;top:100%;height:16px;
+  z-index:1199;
+}
 .dropdown{
-  position:absolute;top:calc(100% + 14px);left:50%;transform:translateX(-50%) translateY(14px);
+  position:absolute;top:calc(100% + 16px);left:50%;transform:translateX(-50%) translateY(14px);
   min-width:560px;background:rgba(248,247,243,.95);
   backdrop-filter:blur(24px) saturate(1.5);-webkit-backdrop-filter:blur(24px) saturate(1.5);
   border:1px solid var(--line);border-radius:var(--radius-lg);

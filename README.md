@@ -74,6 +74,21 @@ The entire colour system lives in the `:root` token block at the top of `assets/
 3. Deploy the folder to any static host (Netlify, Vercel, GitHub Pages, cPanel).
 
 
+## Repository structure (clean & minimal)
+
+```
+Monalisa-NXT/
+├── index.html, mens.html, ladies.html, kids.html,
+│   ethnic.html, accessories.html, toys.html,
+│   shirting.html, emporium.html, offers.html, terms.html   ← 11 pages
+├── assets/          ← css, js, all images (deploy these)
+├── _build/          ← optional: edit pages/template + python3 _build/build.py
+├── DEPLOY.md        ← step-by-step GitHub push guide
+└── README.md
+```
+
+Deployment = push the root files to GitHub (see DEPLOY.md). No build step needed.
+
 ## Image licensing & legal readiness (IMPORTANT)
 
 All photos on this site are **original, AI-generated imagery owned by the project** — no third-party stock

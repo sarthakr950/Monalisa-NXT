@@ -13,3 +13,9 @@ node_modules/
 # Sandbox system files
 .local/
 .sudo_as_admin_successful
+
+# Original logo upload — not needed by the site (logo lives in assets/img/brand/)
+uploads/
+
+# Sandbox caches
+.cache/
