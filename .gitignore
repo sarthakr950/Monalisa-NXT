@@ -1,0 +1,15 @@
+# Backup of the old navy/gold theme — kept locally, NOT deployed
+backup-navy-gold/
+
+# Local preview screenshots (QA artifacts)
+_preview/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+
+# Sandbox system files
+.local/
+.sudo_as_admin_successful
