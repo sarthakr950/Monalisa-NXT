@@ -144,3 +144,4 @@ and Bollywood-style showpieces.
 - Pricing promise section: "priced far below any store or e-commerce website" (owner's claim, no
   fabricated numbers), FAQ + visit CTA included.
 - Content edits: `_build/pages/emporium.html`; meta in `_build/meta.json`; rebuild as usual.
+![Monalisa Logo](images/flogo.png)
