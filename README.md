@@ -1,6 +1,6 @@
-# Monalisa Nxt Mall — Website
+# Monalisa NXT — Website
 
-Premium, conversion-focused marketing website for **Monalisa Nxt Mall, R B Market, Godda (Jharkhand)** — a family fashion & lifestyle mall with 25+ national brands.
+Premium, conversion-focused marketing website for **Monalisa NXT, R B Market, Godda (Jharkhand)** — a family fashion & lifestyle mall with 25+ national brands.
 
 ## Pages
 
@@ -49,9 +49,9 @@ Premium, conversion-focused marketing website for **Monalisa Nxt Mall, R B Marke
 
 ## Logo & favicon
 
-- Logo: `assets/img/brand/logo.png` (transparent background, used in header, mobile drawer & footer)
-- Favicon: `assets/favicon.png` / `assets/favicon-32.png` (logo on a simple white rounded tile) + `assets/apple-touch-icon.png`
-- Source file: `uploads/image-1.jpeg` (keep a copy for re-processing)
+- Source logo: `images/flogo.png` (provided by the store owner)
+- Website logo: `assets/img/brand/logo.png`, cropped to the circular gold emblem and used in the header, mobile drawer & footer
+- Favicons: `assets/favicon.png`, `assets/favicon-32.png` and `assets/apple-touch-icon.png`, all cropped to the same circular emblem
 
 ## Rebuild
 
@@ -94,7 +94,7 @@ Deployment = push the root files to GitHub (see DEPLOY.md). No build step needed
 All photos on this site are **original, AI-generated imagery owned by the project** — no third-party stock
 photos (Getty, Shutterstock, Dreamstime, Pinterest etc.) are used, so there is **no copyright risk** when going live.
 
-- `assets/img/brand/logo.png` — provided by the store owner (used with permission)
+- `images/flogo.png` — logo supplied by the store owner; cropped derivatives are used for the site logo and favicons
 - `assets/img/hero/hero-main.jpg` — AI-generated original
 - All category images — AI-generated originals (replacement in progress, see tracker below)
 - All brand names/logos are trademarks of their respective owners; a disclaimer is shown in the site footer

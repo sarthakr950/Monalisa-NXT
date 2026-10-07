@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Monalisa Nxt Mall — site assembler.
+"""Monalisa NXT — site assembler.
 
 Reads page bodies from _build/pages/, wraps them in the shared shell
 (_build/template.html) with per-page title/description from _build/meta.json,
